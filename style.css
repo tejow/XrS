@@ -1,7 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /*box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  font-family: "muli", sans-serif;*/
+}
+
 html, body, header, main, footer {
 
 }
 
+body {
+  color: #f0f0f0;
+}
+
+/* header */
+header {
+  height: auto;
+  background-color: #171717;
+  color: #E81123;
+}
+.header-logo {
+  height: 50px;
+  float: left;
+  padding: 15px;
+}
+
+nav li {
+  width: 150px;
+  border: 2px solid #AE1012;
+  margin: 5px;
+  text-align: center;
+}
+
+/* main */
+main {
+  background-color: #171717;
+  color: #A0A0A0;
+}
+
+/* footer */
 footer .copyright {
   background-color: #202020;
   padding: 5px 0;
