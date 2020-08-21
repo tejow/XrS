@@ -16,22 +16,30 @@ body {
   color: #f0f0f0;
 }
 
+.container {
+  width: 570;
+  margin: 0 auto;
+}
+
 /* header */
 header {
   height: auto;
   background-color: #171717;
   color: #E81123;
+  text-align: center;
 }
 .header-logo {
   height: 50px;
-  float: left;
   padding: 15px;
+}
+
+.header-logo a img {
+  width: 84px;
 }
 
 nav li {
   width: 150px;
-  border: 2px solid #AE1012;
-  margin: 5px;
+  border: 2px solid #a0a0a0;
   text-align: center;
 }
 
@@ -39,6 +47,11 @@ nav li {
 main {
   background-color: #171717;
   color: #A0A0A0;
+  text-align: center;
+}
+
+main img {
+  width: 350px;
 }
 
 /* footer */
